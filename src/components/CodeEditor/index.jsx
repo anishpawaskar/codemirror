@@ -71,8 +71,6 @@ export const CodeEditor = ({ value, setValue }) => {
   );
 };
 
-// TODO: Upload this project on GitHub and fix gutter alignment and img
-
 // TODO: Look out how drag down is implemented in notion.
 
 // TODO: Fronend should be finsh with in 1 week and Getting 3 days for state handling
