@@ -1,0 +1,114 @@
+.reactMarkDown h1 {
+  @apply text-3xl font-bold;
+}
+
+.reactMarkDown h2 {
+  @apply text-2xl font-bold;
+}
+
+.reactMarkDown h3 {
+  @apply text-xl font-bold;
+}
+
+.reactMarkDown h4 {
+  @apply text-lg font-bold;
+}
+
+.reactMarkDown h5 {
+  @apply text-base font-bold;
+}
+
+.reactMarkDown h6 {
+  @apply text-sm font-bold;
+}
+
+.reactMarkDown p {
+  @apply text-base;
+}
+
+.reactMarkDown hr {
+  @apply my-2;
+}
+
+.reactMarkDown strong {
+  @apply text-base;
+}
+
+.reactMarkDown pre {
+  @apply p-4 bg-[#F6F8FA] text-sm;
+}
+
+.reactMarkDown pre code {
+  @apply text-black bg-transparent;
+}
+
+.reactMarkDown blockquote {
+  @apply px-4 py-2 text-[#636c76] border-l-[0.25em] flex flex-col gap-4;
+}
+
+.reactMarkDown blockquote ul {
+  @apply px-4 list-disc flex flex-col gap-1;
+}
+
+.reactMarkDown ul {
+  @apply list-disc ml-8 flex flex-col gap-1;
+}
+
+/* // TODO: How to apply list style bullet on ul  inside ul */
+.reactMarkDown li ul {
+  @apply list-circle flex flex-col gap-1;
+}
+
+.reactMarkDown li blockquote {
+  @apply my-4;
+}
+
+.reactMarkDown ol {
+  @apply list-decimal ml-8 flex flex-col gap-1;
+}
+
+.reactMarkDown ol {
+  @apply list-decimal ml-8 flex flex-col gap-1;
+}
+
+.reactMarkDown li pre {
+  @apply my-4;
+}
+
+.reactMarkDown code {
+  @apply bg-[#EFF1F3] text-red-500 py-[0.2em] px-[0.4em] rounded-md;
+}
+
+.reactMarkDown p a {
+  @apply text-[#0969da] hover:border-b hover:border-b-[#0969da];
+}
+
+.reactMarkDown table thead tr th {
+  @apply text-start font-bold h-10;
+}
+
+.reactMarkDown table tbody tr {
+  @apply border-t h-10;
+}
+
+.reactMarkDown table tbody tr:nth-child(odd) {
+  @apply bg-[#F9F9F9];
+}
+
+.reactMarkDown p img {
+  @apply max-w-[300px] object-cover;
+}
+
+.reactMarkDown p:has(img) {
+  @apply flex gap-2 flex-wrap;
+}
+
+.reactMarkDown h3 a {
+  @apply text-[#0969da] hover:border-b hover:border-b-[#0969da];
+}
+
+/* TODO: find solution for typography replacement */
+
+.cm-gutterElement {
+  @apply flex justify-center items-center;
+}
